@@ -1,0 +1,348 @@
+*********************************************************************
+**************https://mymobilitywp.fergdev.com/patients/patientfaqandroid/**************
+*********************************************************************
+ * Patients [https://mymobilitywp.fergdev.com/]
+ * Clinicians [https://mymobilitywp.fergdev.com/clinicians/]
+ * Contact Us [https://mymobilitywp.fergdev.com/contact-us/]
+ * Device Support [https://mymobilitywp.fergdev.com/devicesupport/]
+ * English (United States) [https://mymobilitywp.fergdev.com/patients/patientfaqandroid/]
+
+ * English (United States) * English (United States) [https://mymobilitywp.fergdev.com/patients/patientfaqandroid/]
+   
+   
+
+[/] * Patients [https://mymobilitywp.fergdev.com/]
+ * Clinicians [https://mymobilitywp.fergdev.com/clinicians/]
+ * Contact Us [https://mymobilitywp.fergdev.com/contact-us/]
+ * Device Support [https://mymobilitywp.fergdev.com/devicesupport/]
+
+ * 
+
+ * Safety Information [https://mymobilitywp.fergdev.com/patients/useofprops/]
+ * User Agreement [https://mymobilitywp.fergdev.com/patients/patienteula/]
+ * Privacy Policy [https://mymobilitywp.fergdev.com/patients/privacypolicy/]
+ * mymobility Credits [https://mymobilitywp.fergdev.com/credits/]
+
+MYMOBILITY® DIGITAL APPLICATION PATIENT FREQUENTLY ASKED QUESTIONS ABOUT USE OF MYMOBILITY ON AN ANDROID DEVICE
+The following frequently asked questions are here to help you solve any issues you may experience when using the mymobility app on your Android™ mobile digital device.
+
+If you experience any feelings of pain, lightheadedness, fainting, dizziness, shortness of breath, physical discomfort, or difficulty (i.e., loss of balance or inability to complete an exercise without inducing pain) with the exercises in your plan,please immediately stopand consult your doctor.IF YOU BELIEVE YOU ARE HAVING A MEDICAL OR HEALTH EMERGENCY, PLEASE CALL 911 IMMEDIATELY.
+
+GENERAL
+What is mymobility?
+
+> mymobility is a digital interactive care plan designed in the form of a mobile application for use on certain mobile digital devices. The application prompts and encourages users to complete tasks (i.e., such as performing prescribed exercises and answering questions) assigned by their physician, as part of the physician’s care plan. The physician and his/her Care Team can monitor completion of tasks and communication to track user progress and adjust each care plan accordingly. mymobility can be used to prepare for and recover from surgery. It can also be used to aid recovery after a specific injury or trauma.
+
+
+How does the mymobility program work?
+
+> Your Care Team will select an appropriate care plan for you that should not only help you prepare for surgery, but also recover from it. Additionally, mymobility can help you recover from an unexpected injury or trauma.
+
+Your Care Team should track your progress through the care plan they have chosen for you. They should also provide you with feedback through the encrypted messaging functionality, by which your care plan may also be adjusted, as needed.
+
+
+How can I receive/remove notifications on my phone?
+
+> You can change your mymobility app notification settings by going to your Android phone’s Settings and Notification area; then within the mymobility app, you can change how and when you receive notifications.
+
+Note:Android phone settings may slightly vary. Please refer to your phone’s user guide instructions specific to notifications.
+
+
+LOGIN
+Do I have to allow the Google Fit™ app access to my step data now or could I allow that later? What if I don’t allow the Google Fit app access to my step data?
+
+> Yes, you can either allow it now or allow it later. However, the data the mymobility app is asking for allows mymobility to report your step data to members of your Care Team. Although this is not a requirement, this data allows your Care Team visibility on your activity (as a patient), allowing the Care Team to adjust patient care plans, as needed. The data helps your Care Team track your progress throughout the preoperative and recovery timeframes. This is done by discovering patient activity patterns and aiding patients with appropriate plans for successful post-surgery recovery outcomes.
+
+
+What needs to be done to allow the Google Fit app access?
+
+> After you initially download and launch the mymobility app, you should have the option to grant permissions to Google Fit. You will have an option to get the Google Fit app on your phone. If you already have the Google Fit app you will have the ability to click “Allow.”
+
+Whether you allow the Google Fit app access now or wait until later, you should be redirected back to the mymobility app so you can log in. Keep in mind, if you don’t allow the Google Fit app access to your steps data, the statistics in the mymobility app (i.e., steps) should show as ‘N/A’ (Not Applicable) until you allow the Google Fit app access.
+
+
+How do you allow the Google Fit app access to mymobility data after initially saying no during the app set-up process?
+
+> If you don’t have the Google Fit app you can get it from the Google Play store. Once you have set up the Google Fit you can connect it with your mymobility app. You will need to uninstall the mymobility app then reinstall the app from the Google Play store. When you launch the mymobility app you will have the ability to click “Allow.”
+
+
+I don’t remember my username. How do I log in?
+
+> From the main login screen of the app, click on the “Log In” link and then from the next screen, click on the “Forgot Username” link on the bottom left-side corner of the screen. On the next screen, enter the email address you used to initially set up your mymobility account and click “Continue.”
+
+Then, you should be prompted to answer some of your security questions.Take note, security question answers are case-sensitive. Once you are finished answering your security questions, the next screen should let you know you can check your email account for your username. Keep in mind, you may need to check your junk or spam folder for the email with the sender email ofsupport@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com]. Once you go back to the mymobility app, you should be able to log in with that username.Note:Usernames are not case-sensitive. Another option to help with future logins would be to set up and use the fingerprint/facial recognition option on your phone.
+
+
+What is my username?
+
+> If you are unsure of your username, you may not have set up your mymobility account yet. To do this, please refer to the email address and temporary password you were sent from your Care Team. This email would have been sent out when your profile was created, upon your initial enrollment in the mymobility program.Note:Usernames are not case-sensitive.
+
+
+> If you know you already set up your mymobility account, but have forgotten your username, please click on the “Forgot Username” link on the bottom left-side corner of the screen. On the next screen, enter the email address you used to initially set up your mymobility account and click “Continue.”
+
+Then, you should be prompted to answer some of your security questions.Take note, security question answers are case-sensitive. Once you are finished answering your security questions, the next screen should let you know you can check your email account for your username. Keep in mind, you may need to check your junk or spam folder for the email with the sender email ofsupport@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com]. Once you go back to the mymobility app, you will be able to log in with that username.Note:Usernames are not case-sensitive. Another option to help with future logins would be to set up and use the fingerprint/facial recognition option on your phone.
+
+
+Can I change my username?
+
+> No. The username you created the first time you logged in to the app is the username you will always have.
+
+
+Why is my username not working?
+
+> If your username is not working and you know you are typing it correctly, you can verify your username. To do this from the main login screen of the app, click on the “Forgot Username” link on the bottom left-side corner of the screen.
+
+
+> On the next screen, enter the email address you used to initially set up your mymobility account and click “Continue.” Then, you should be prompted to answer some of your security questions.Note, security question answers are case-sensitive. Once you are finished answering your security questions, the next screen will let you know you can check your email account for your username. Keep in mind, you may need to check your junk or spam folder for the email with the sender email ofsupport@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com]. Once you go back to the mymobility app, you should be able to log in with that username.Note:Usernames are not case-sensitive. Another option to help with future logins would be to set-up and use fingerprint/facial recognition option on your phone.
+
+However, if the username that was sent to you is not the one you remember setting up your account with, please contact your Care Team. If you are still having issues, please contact mymobility support at either +1 (844) 799-8208 or via email atsupport@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com].
+
+
+I forgot my password. How do I reset it?
+
+> On the mymobility app’s main login screen, click on the “Forgot Password” link in the bottom right-side corner of the screen.
+
+
+On the next screen, enter the email address you used to initially set up your mymobility account and click “Continue.” Then, you should be prompted to answer some of your security questions.Note:security question answers are case-sensitive. Once you are finished answering your security questions, the next screen will let you know you can check your email account for an email with instructions on how to reset your password. When you check your email account, you should receive an email with a temporary password and instructions on how to reset your password. Keep in mind, you may need to check your junk or spam folder for the email with the sender email ofsupport@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com]. Once you go back to the app, you should be able to log in with your username and the temporary password. Note: If you would like, you can copy and paste the password from the email.
+
+When you are logged back in, you will need to create a new, permanent password. All passwords must be a minimum of 8 characters long, include at least one uppercase and one lowercase letter, one number, and one special character—only:!@#$%()_-?/.,:’ <space>. Note: If you would like to actually see the password while you are creating it, you can click on the “eye icon” (on the right side of the password line) to temporarily reveal the password characters.
+
+> If your permanent password has been successfully changed and accepted, the app should let you know. For future use, it might be a good idea to write down your password somewhere safe. Keep in mind, passwords are case-sensitive. Another option to help with future logins would be to set up and use the fingerprint/facial recognition option on your phone.
+
+
+How do I change my password?
+
+> If you would like to change your password, you need to make sure you are logged in to the app. Click on the “Settings” icon on the right side of the bottom Navigation Bar.
+
+
+> Next, click on the “Change Password” option. From the next screen, you will need to enter your old password and then your new, permanent password. Remember, all passwords are case-sensitive and must be a minimum of 8 characters long, include at least one uppercase and one lowercase letter, one number, and one special character—only:!@#$%()_-?/.,:’ <space>. If your permanent password has been successfully changed and accepted, the app should let you know.
+
+For future use, it might be a good idea to write down your password somewhere safe.Note:Your new password must be unique and cannot be one of the last 10 passwords used. The system will require you to reset your password every 90 days. Another option to help with future logins would be to set up and use fingerprint/facial recognition option on your phone.
+
+
+I have not received an email after pressing the “forgot password” option. What’s next?
+
+> If you are sure you (1) entered your email address correctly, (2) answered your security questions correctly, and (3) double-checked the “Forgot Password” email did not end up in your email spam or junk folder, please contact mymobility support at either +1 (844) 799-8208 or via email at support@zbmymobilitysolutions.com. If you think you may have entered your email address or answers to your security questions incorrectly, you may want to try the“Forgot Password”process over again.
+
+
+Why is my password not working?
+
+> If your password is not working and you know you are typing in the correct password, you can change your password. You will need to use the“Forgot Password”option at the Log in screen. Remember, all passwords are case-sensitive and must be a minimum of 8 characters long, include at least one uppercase and one lowercase letter, one number, and one special character—only:!@#$%()_-?/.,:’ <space>. If your permanent password has been successfully changed and accepted, the app should let you know.
+
+For future use, consider writing down your password somewhere safe.Note:Your new password must be unique and cannot be one of the last 10 passwords used. The system will require you to reset your password every 90 days. Another option to help with future logins would be to set up and use the fingerprint/facial recognition option on your phone.
+
+
+I have correctly entered my login credentials, but am still unable to log in. What can I do next? Who can I contact to help me?
+
+> There are a few different options. If you have already tried clicking on the “Forgot Username” and “Forgot Password” links and you still have no luck, check your connection to the internet. To use the mymobility app, you need to be connected to a Wi-Fi network or a cellular connection (i.e., LTE, 3G). To check your Wi-Fi or internet settings connection on your phone, go to your Android’s “Settings” app, click on “Network & Internet,” and then click on “Wi-Fi.” From here, you can check you are connected to Wi-Fi or tap to connect to a network you would like to join.Note:Android phone settings may slightly vary. Please refer to your phone’s user guide instructions.
+
+If you are still having issues logging in to the app, please contact mymobility support at either +1 (844) 799-8208 or via email atsupport@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com].
+
+
+TROUBLESHOOTING
+I am having problems taking pictures or video in the “Messages” section of the app.
+
+> You may not have given mymobility permission to access your camera. If you are unsure, go to your Android phone “Settings” app, then scroll down to tap on “Apps” or “Application Manager” where your apps are listed and scroll down until you find and select the mymobility app. On the next screen, click on “Permissions,” and then where it says “Camera,” make sure the switch is toggled to the right so it’s green, indicating that option is on.Note:Android phone settings may slightly vary. Please refer to your phone’s user guide instructions.
+
+If you know you have given the program permission to do this and you are still having issues, try closing the program completely and restarting. If that still does not work, please contact mymobility support number at either +1 (844) 799-8208 or via email atsupport@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com].
+
+
+I cannot access my account.
+
+> If you try to log in and keep getting an alert that either your password or username is incorrect, try clicking on the “Forgot Username” or “Forgot Password” links. If you have unsuccessfully tried to access your account during login, you will be locked out of your account after 10 times. You should see a pop-up message that says, “Your account has been locked due to 10 failed login attempts. It will automatically unlock after one hour. If you are still unable to log in after that, please contact mymobility Support at either (844) 779-8208 orsupport@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com].” By clicking “Okay,” it will take you back to the login screen. Keep in mind that before you are fully locked out of your account, you will receive warnings notifying you of how many more attempts you have before you are locked out.
+
+
+I cannot open Education items. What can I do?
+
+> You may not have given mymobility permission to open Education items. When you first successfully logged in you were asked to allow these permissions: “Allow mymobility to access photos, media, and files on your device.” If you did not select “Allow” then mymobility is unable to open Education items. To give mymobility permission to open Education items, go to the “Settings” app. Then click on “Apps”. You can now see which apps you have given permission to update your data (i.e., mymobility). Click on “mymobility.” From the next screen select “Permissions”. Then you have the option to turn on “Storage” to provide access.Note:Android phone Settings may slightly vary. Please refer to your phone’s user guide instructions.
+
+If you know you have given the program permission to do this and you are still having issues, try closing the program completely and restarting. If that still does not work, please contact mymobility support number at either +1 (844) 799-8208 or via email atsupport@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com].
+
+
+My sound is not working. What can I do?
+
+> Make sure your phone sound is turned on by checking the volume buttons. Another option is to double-check your sound settings under the “Settings” icon on your phone, by clicking “Sounds”. Here, you can increase or decrease the volume of your phone.Note:Android phone Settings may slightly vary. Please refer to your phone’s user guide instructions.
+
+
+I accidentally deleted the mymobility app and can no longer find it on my phone. What do I do? Is everything I completed gone forever?
+
+> No, everything you have completed in the past is not gone forever. Make sure you download the app on your phone again and log back in when you are ready. Once you log back in, you should be able to see all your prior participation within the app. If you have questions regarding your prior participation in the app, please contact your Care Team. If you are having issues when you download the app again, please contact mymobility support at either +1 (844) 799-8208 or via email atsupport@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com].
+
+
+The mymobility app closed unexpectedly. Why did that happen and what is next?
+
+> If this happens, make sure your phone battery is not dead. If the battery is okay, the app may have crashed. If you were unable to complete a task before the app crashed, you may have lost any unsaved data. Re-open the app and check if you need to restart any of your assigned items, or just continue where you left off before the crash. If you were in the middle of an exercise and were not able to fully complete it by logging your reps, that exercise will not be saved. In this case, instead of skipping the exercise, just log the number of reps that you completed for that exercise.Note:Any completed exercises and the number of reps you logged for that exercise should be saved in your app. Just make sure to complete the remaining exercises in the routine.
+
+
+The mymobility screen has frozen. What do I do next?
+
+> The best option is to completely close out of the app (by clearing it out like you would when clearing out any running apps on your phone) and then re-open. Then, click on the “Settings” icon (on the right side of the bottom Navigation Menu Bar) and then click “Log out.” The app will ask if you are sure you want to log out. By clicking yes, you will be logged out of the app. However, if you are still having issues with the app, please wait 15 minutes and try logging back in. If you are still having problems, please contact mymobility support at +1 (844) 799-8208 or via email atsupport@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com].
+
+
+ACCESS AND USE
+There is nothing on my To-Do List. What now?
+
+> If you have nothing on your To-Do list when you initially log in, this means you have completed everything assigned to you for that day already or you have nothing to complete for that day. Great job! You may go back and review past completed educational items or just log out of the application for the day. Make sure you come back the following day for your next round of activities.
+
+However, if you were expecting items on your To-Do List (i.e., education or exercises) and there is nothing, please send a message to your Care Team from the “Messages” section of the app to find out if there was an error.
+
+
+How do I exit the application when it is in full screen on my phone?
+
+> If you press the “Home” button on the bottom of your Android phone, the app should close. To re-open the app, you can either double-click the “Home” button again to select the app or you can select the app icon on your phone.
+
+If you just want to log out of the app, please click on the “Settings” icon on the bottom right side of the Navigation Menu Bar, and then click “Log out.” The app should ask if you are sure you want to log out. If you click yes, then you should be logged out of the app.
+
+
+Can I change the audio setting in the app?
+
+> No. You can only change the audio settings of your Android phone.
+
+
+Can I change the speed of the audio in my exercise videos?
+
+> No. However, you may pause a video, as needed.
+
+
+You may also restart a video from the beginning by pressing the rewind button.
+
+Plus, you can also press the loop button to loop the video, which will allow you to view the exercise being performed multiple times, until you select the pause button to stop.
+
+When the video finishes, you can also press the play button again to restart it from the beginning.
+
+What if I accidentally marked an activity (i.e., education, exercise, etc.) completed when it’s not done?
+
+ * For Educational items, they are always available in your Education library. If you didn’t complete the educational item yet, you can view these at any time by clicking on the “Education” icon in the middle of the bottom Navigation Menu Bar.
+   
+ * For Survey items, unless you fully completed the survey and clicked “Submit” at the end, the survey should still appear on the “Home Page” as not yet completed.
+ * For Exercise Routines, unless you fully completed the routine, that routine should still appear as not yet completed and you can view all exercises. However, if you accidentally skipped an exercise in a completed routine, you may not go back to complete it. If that is the case, please message your Care Team to let them know what happened.
+
+I exited my activity too early or would like to revisit it again. How can I do that?
+
+> If you did not complete the activity yet, you should still be able to see it on your “To-Do” List. If you would like to revisit an Education item, please click on the “Education” icon on the bottom Navigation Menu Bar. From there, you can view all the education items that have been assigned to you. Select the item you wish to review and then you should be able to go through and review that education item.
+
+For Exercise Routines, if you didn’t fully complete the routine yet, it should still be available on your “To Do List.” Keep in mind, if you do not complete an exercise routine the day it is assigned, you will not be able to complete it on another day. The mymobility program only allows you to enter the number of reps you were assigned. This is to help you avoid doing too much too fast, which could lead to injury and may slow down your recovery progress.
+
+
+Is there a tip sheet to remind me of the top things to remember to do during each exercise?
+
+> Not right now. If you have questions about an exercise routine, please contact your Care Team through the “Messages” section of the app.
+
+
+I already started my routine, but the app closed. How do I get back to where I was?
+
+> Try re-launching the app and start your assigned routine again. Any exercises you have entered reps for and completed should be saved. Just make sure to complete the remaining exercises in the routine.
+
+
+What do the progress rings on the Home Screen mean?
+
+> There are three progress rings — Education, Surveys, and Exercises — on your home page to give you a snapshot of your activity statistics. If you click on the drop-down arrow below each progress ring, a collapsible box will include an explanation of what that ring represents and how that activity percentage is calculated.
+
+
+I am unsure about something that was assigned to me or have other questions I want to ask my Care Team. How do I send a message to my Care Team?
+
+> If you have any questions about something that was assigned to you, please feel free to reach out to your Care Team. You can send a message at any time through the “Messages” icon on the bottom of the Navigation Menu Bar. From the “Messages” screen, start writing your message in the “Enter Message” box near the bottom of the screen.
+
+
+The format is like sending a text message on your phone so when you are done, just click the magenta arrow on the right side of the message text box to send the message to your Care Team. You may also send a picture or video through the app by clicking on the camera icon on the left side of the message text box.
+
+Once you are finished with your message, make sure to click the “Send” button in the bottom right corner. As long as your message shows in the message thread, that means the message was sent to your Care Team.
+
+How do I know who is on my Care Team?
+
+> To see who is on your Care Team, click on the “Messages” icon on the bottom Navigation Menu Bar. In the upper right corner of the “Messages” screen, click on the people icon. A list of healthcare professionals that are on your Care Team should appear.
+
+
+Why am I being asked to complete surveys?
+
+> You will be asked to complete a survey once before surgery and several times after surgery. Each answer corresponds to a value. We take your answers, add them up, and get a score that tells us how you are functioning. We ask you to fill out these formal surveys to: (1) Help your Care Team assess your recovery and (2) Compare your post-operative score to your pre-operative score to evaluate your progress. It also allows your Care Team to compare your recovery to the norms for that survey.
+
+
+Can I video chat with my Care Team?
+
+> No. However, you can take a video message on your phone, through the app, and send it to your Care Team.
+
+
+I completed my exercise routines. Why can I not enter the number of repetitions I did?
+
+> If you are unable to add the number of repetitions (reps) you completed, you may have done more than the assigned number of repetitions. The mymobility program only allows you to enter the number of reps that were assigned. This is to help you avoid doing too much too fast, which could lead to injury and may slow down your recovery progress.
+
+
+How long will I stay logged in to the app before I am signed out and must re-sign in (i.e., minutes of inactivity/closing the program/locking the phone, etc.)?
+
+> You will be locked out of the app after 15 minutes of inactivity if you either lock your phone, minimize the app to do something else on your phone, or just leave the app open without doing anything else.
+
+Keep in mind, if you are in the middle of any activity, but don’t completely close out of the app, any progress might be lost. Just make sure before leaving the app, you fully complete any of your activities, so you don’t lose any progress.
+
+
+I couldn’t do my exercise routines yesterday. Why can’t I see them today?
+
+> Exercise routines don’t carry over either during your pre-surgery or post-surgery time periods. This is to help you avoid doing too much in one day, which could lead to injury that may slow down your recovery progress.
+
+
+What does it mean when I am discharged?
+
+> To be discharged means that your Care Team has decided you no longer need to be enrolled in the mymobility program. You should not have access to any of the services in the mymobility app. If you find you still need help or have any questions, please contact your Care Team. As always,in case of an emergency, please immediately call 9-1-1.
+
+
+Can I be re-admitted as a patient? What does that mean?
+
+> Yes. If your Care Team decides you need to be re-admitted after you have already been discharged, you can be admitted back in to the mymobility program. If you have any additional questions, please contact your Care Team.
+
+
+MESSAGES
+Who can I send messages to?
+
+> The only messages you can send are messages to your entire Care Team. Once you send a message to your Care Team, they will be notified they have a message waiting for action. You may send or check messages through the “Messaging” tab. If you respond to a message from your Care Team, the message will be sent to all members of your Care Team.
+
+
+May I look back at messages I have already sent?
+
+> Yes, through the “Messaging” icon on the bottom Navigation Menu Bar, you can view all messages that have been sent and received between you and your Care Team.
+
+
+Can I send a picture or video message?
+
+> Yes, you may. When you are logged in to the app, please click on the “Messaging” icon on the bottom Navigation Menu Bar. You will have the option to click on the camera icon to send a picture or video.
+
+
+On the next screen, you will have the option to add either a photo or video. The first time you add a photo or video, the app will ask if you would like to allow the mymobility app access to your camera and then your microphone. By selecting yes, you should now be able to either take a photo or record a video.
+
+To take a photo, tap on the photo icon. You have the option of either taking a photo of something in front of you or clicking the “Switch” button to switch to the front screen camera to take a picture of yourself.
+
+To take a video, tap on the word “video” so it is highlighted blue then tap on the video icon. You have the option of either taking a video of something in front of you or clicking the “Switch” button to switch to the front screen camera to take a video of yourself.Keep in mind, you can take up to a 30-second video.
+
+Once you are finished taking a photo or video, you have the option to either retake the photo/video or click “Done” in the upper right corner. If you decide not to use your photo or video after taking it, you can click on the “Retake” button and then on the next screen, click “Cancel.”
+
+If you are pleased with the photo or video to send to your Care Team, click “Done” in the upper right corner to attach the photo/video to your message. However, you can still remove or retake the photo/video by clicking the ‘x’ in the upper right corner of the photo/video while it is still in your message text box, before sending the message to your Care Team.
+
+What is the purpose of using Google Fit?
+
+> The benefits of using Google Fit in combination with the mymobility program is to allow you, as the patient, more access to all the benefits of being enrolled in the mymobility program. Some of these benefits include an easier way to track step count to help assist with a smooth and more successful recovery.
+
+
+If you have additional questions about your care regarding your physical condition, activity, pain, care plan (or instructions from your doctor contained in your care plan), or specific exercises, call your doctor. If you were unable to resolve your technical issues using the FAQs above, please contact mymobility Support by phone or email. If reaching out by email, please provide a detailed description of the problem you are experiencing, an error message if applicable, and a photo of the issue you are having.
+
+Please refer to your Android phone’s user guide for instructions on how to take a screenshot with your phone. Once you can take the screenshot(s), you can send an email to the mymobility support email below.
+
+ * mymobility support Email:support@zbmymobilitysolutions.com [support@zbmymobilitysolutions.com]
+ * mymobility phone number: +1 (844) 799-8208
+
+
+
+This information is intended for patients utilizing theZimmer Biomet Connected Healthmymobility® digital application (‘app’).Zimmer Biomet Connected Healthdoes not practice medicine. Only a licensed healthcare provider can determine the treatment appropriate for your specific condition; appropriate post-operative activities and restrictions will vary from patient to patient. The care plan and instructions contained in your mymobility app have been chosen and prescribed for you by your physician and all questions relative to your medical condition must be directed to your prescribing physician.
+
+The information supplied by you through this application will be used by Zimmer Biomet or its affiliates in compliance with applicable data protection legislation; please see the Privacy policy on your mymobility app for additional information.
+
+All content herein is protected by copyright, trademarks and other intellectual property rights, as applicable, owned by or licensed to Zimmer Biomet or its affiliates unless otherwise indicated, and must not be redistributed, duplicated or disclosed, in whole or in part, without the express written consent of Zimmer Biomet.
+
+©2019 Zimmer Biomet
+
+Android, Google Fit, and Google Play are trademarks of Google, LLC.
+
+This material is intended for patients utilizing the mymobility® application by Zimmer Biomet. 
+©2019-2020 Zimmer Biomet.
+
+ * Patients [https://mymobilitywp.fergdev.com/]
+ * Clinicians [https://mymobilitywp.fergdev.com/clinicians/]
+ * Contact Us [https://mymobilitywp.fergdev.com/contact-us/]

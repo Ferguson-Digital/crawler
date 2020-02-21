@@ -1,0 +1,41 @@
+*********************************************************************
+**************https://mymobilitywp.fergdev.com/**************
+*********************************************************************
+ * Patients [https://mymobilitywp.fergdev.com/]
+ * Clinicians [https://mymobilitywp.fergdev.com/clinicians/]
+ * Contact Us [https://mymobilitywp.fergdev.com/contact-us/]
+ * Device Support [https://mymobilitywp.fergdev.com/devicesupport/]
+ * English (United States) [https://mymobilitywp.fergdev.com] * English – Australia [https://mymobilitywp.fergdev.com/?lang=en-au]
+   
+   
+
+ * English (United States) * English (United States) [https://mymobilitywp.fergdev.com]
+    * English – Australia [https://mymobilitywp.fergdev.com/?lang=en-au]
+   
+   
+
+[/] * Patients [https://mymobilitywp.fergdev.com/]
+ * Clinicians [https://mymobilitywp.fergdev.com/clinicians/]
+ * Contact Us [https://mymobilitywp.fergdev.com/contact-us/]
+ * Device Support [https://mymobilitywp.fergdev.com/devicesupport/]
+
+ * 
+
+PATIENTS
+GETTING STARTED
+iPhone [/patients/gettingstarted]|Apple Watch [/patients/gettingstartedwatch]|Android [/patients/gettingstartedandroid]
+
+FAQS
+iPhone [/patients/patientfaq]|Android [/patients/patientfaqandroid]
+
+ * Safety Information [https://mymobilitywp.fergdev.com/patients/useofprops/]
+ * User Agreement [https://mymobilitywp.fergdev.com/patients/patienteula/]
+ * Privacy Policy [https://mymobilitywp.fergdev.com/patients/privacypolicy/]
+ * mymobility Credits [https://mymobilitywp.fergdev.com/credits/]
+
+This material is intended for patients utilizing the mymobility® application by Zimmer Biomet. 
+©2019-2020 Zimmer Biomet.
+
+ * Patients [https://mymobilitywp.fergdev.com/]
+ * Clinicians [https://mymobilitywp.fergdev.com/clinicians/]
+ * Contact Us [https://mymobilitywp.fergdev.com/contact-us/]

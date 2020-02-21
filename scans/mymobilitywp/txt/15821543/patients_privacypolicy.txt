@@ -1,0 +1,108 @@
+*********************************************************************
+**************https://mymobilitywp.fergdev.com/patients/privacypolicy/**************
+*********************************************************************
+ * Patients [https://mymobilitywp.fergdev.com/]
+ * Clinicians [https://mymobilitywp.fergdev.com/clinicians/]
+ * Contact Us [https://mymobilitywp.fergdev.com/contact-us/]
+ * Device Support [https://mymobilitywp.fergdev.com/devicesupport/]
+ * English (United States) [https://mymobilitywp.fergdev.com/patients/privacypolicy/]
+
+ * English (United States) * English (United States) [https://mymobilitywp.fergdev.com/patients/privacypolicy/]
+   
+   
+
+[/] * Patients [https://mymobilitywp.fergdev.com/]
+ * Clinicians [https://mymobilitywp.fergdev.com/clinicians/]
+ * Contact Us [https://mymobilitywp.fergdev.com/contact-us/]
+ * Device Support [https://mymobilitywp.fergdev.com/devicesupport/]
+
+ * 
+
+ * Safety Information [https://mymobilitywp.fergdev.com/patients/useofprops/]
+ * User Agreement [https://mymobilitywp.fergdev.com/patients/patienteula/]
+ * Privacy Policy [https://mymobilitywp.fergdev.com/patients/privacypolicy/]
+ * mymobility Credits [https://mymobilitywp.fergdev.com/credits/]
+
+MYMOBILITY PRIVACY POLICY
+Effective Date: 13 January 2020
+Thank you for using the Zimmer Biomet remote rehabilitation mobile application and online service known as mymobility®. Zimmer Biomet, together with its affiliates (“we,” “us” or “Company”), provides mymobility to you on behalf of physicians, hospitals, rehabilitation centers, and other providers (each a “Provider”). Company contracts with Providers to offer mymobility and other home-based programs to patients.
+This Privacy Policy (“Policy”) explains our practices for the collection and processing of user information collected from or about the users of mymobility, any of our online applications or portals associated with mymobility, including www.zbmymobility.com [https://www.zbmymobility.com], or any other online service that links to this Policy (collectively the “Applications”). This Policy is unique to the Applications and differs from other privacy policies of Company or affiliates of Company. Our Applications are directed to patients, healthcare professionals, rehabilitation centers, or other users of our services (collectively “you”). Using our Applications indicates that you agree to our practices outlined in this Policy. Please carefully review this Policy.
+
+SPECIAL NOTE TO HEALTH CARE PROVIDERS
+If you are a Provider (for example, if you are a healthcare professional, hospital, rehabilitation center, or similar health care provider or one of their representatives that is a Company customer or acting on behalf of a Company customer), then this document does not apply to you. Please refer to the applicable license and services agreement with Company for privacy terms.
+
+SPECIAL NOTE TO PATIENTS IN THE UNITED STATES
+If you are a patient, this Policy is distinct from any of your Provider’s Health Insurance Portability and Accountability Act (HIPAA) Notice of Privacy Practices, which, for U.S. patients, describes how your Provider uses and discloses individually identifiable information about your health that they collect, or other privacy practices of your Provider. As your Provider’s business associate or contracting partner, Company has agreed that its collection, use, and disclosure of your information on behalf of your Provider for mymobility will be done in accordance with your Provider’s HIPAA Notice of Privacy Practices or other privacy practices disseminated by your Provider.
+Reading this Policy and your Provider’s privacy practices will help you understand how any Personal Information (as defined in this Policy) we collect from you through mymobility or directly from your Provider is used and/or disclosed. If there is any inconsistency between this Policy and your privacy practices, your Provider’s privacy practices shall apply with respect to that conflict.
+
+INFORMATION WE COLLECT AND RECEIVE
+1. Categories of information we collect
+Personal Information: Personal Information we collect includes information that can be used to identify you or that we can link directly to you, such as your name, address, email address, payment information, picture, voice recording, and telephone number. On Android phones, we are required to ask your permission to access your media files; however, we do not collect or access any media or files on your phone outside of information you enter into the application.
+Health Information: We also collect Health Information, including information regarding your treatment and images and recordings of your therapy. Additionally, through your use of the Applications, we may ask you to share your Apple HealthKit and/or Google Fit data with Company. We collect and process information that we receive through your smartphone and connected device(s) via the Apple HealthKit and/or Google Fit application with your consent. If you do not want to provide us this information, please do not utilize these Applications or do not provide consent for us to receive and process the HealthKit and/or Google Fit application data.
+Technical Information: When you visit or use the Applications, we also automatically collect certain technical information relating to users and their devices. This information is automatically sent whenever you visit a website on the Internet or use a mobile application. To learn more about how this information is collected see the “Cookies and Similar Tools” section below. This information includes Internet Protocol address, browser type, browser language, device type, advertising IDs associated with your device (such as Apple’s Identifier for Advertising or Android’s Ad ID), the date and time of your request, and Uniform Resource Locators, or URLs (i.e., website addresses) visited prior to arriving at and after leaving our Applications.
+2. How we collect information
+Use of the Applications: Your Provider sends us information about you in order to enable us to provide our services on their behalf. We also receive information you provide to us when you use our Applications. For example, we collect information when you register for our service, record videos of your rehabilitation and surroundings, provide feedback following your rehabilitation session, open communications with your Provider, report on your outcome measures, make a purchase, and contact us with a request or question.
+Cookies and Similar Tools: We also collect some other information from your mobile device automatically, including Technical Information. Like many Applications, we use cookies, web beacons, and other similar technologies on our Applications. A cookie is a unique numeric code that we transfer to your computer so that we can keep track of your interests and/or preferences and, among other things, recognize you as a return visitor to our Applications. Web beacons are small pieces of code placed on our Applications that allow us to obtain information about website usage.
+Common uses for cookies include:
+– Identifying visitors who have signed into a password-protected website to avoid users having to submit a user name and password for every page;
+– Keeping track of visitors’ preferences regarding the content they would like to see and the format in which they would like to view it so they don’t need to resubmit the preferences every time they visit the site;
+– Keeping track of which pages visitors request to make improvements to site content and navigation; and
+– Engaging in analytics about how the Applications are used.
+You can set your browser to refuse all cookies from this and other websites that you visit. However, it is possible that some portions of the website will not function properly if your cookies are disabled. Please note that other tracking technologies will still function.
+For more information on our use of cookies, please see the Zimmer Biomet Applications Cookie Policy at http://www.zimmerbiomet.com/cookies-notice.html [http://www.zimmerbiomet.com/cookies-notice.html].
+Combination of Data: We combine any of the information we collect together, whether Personal Information, Health Information, or Technical Information, with information that we obtain from third parties. These third parties include healthcare professionals, hospitals, medical scanning facilities, or similar healthcare providers or one of their representatives who use our Applications for patient-related products and services we make available to them in the course of their or our provision of treatment, or other third parties, including parties who provide other applications to you, with your consent to such collection and combination.
+
+HOW WE USE AND SHARE THE INFORMATION WE COLLECT
+We use the information we collect to provide our products and services to users and as permitted by our agreements with your Providers. We also use the information we collect to contact you, process the purchase and return of products you request, provide you with customer service, research and improve our products and services, and customize your experience with our products and services. When permitted by your Providers, we use and share aggregated or de-identified information in our discretion.
+We may use the Health Information we obtain through the Apple HealthKit application to provide feedback on your activity or health status to your Provider and to improve the Applications by creating a more personalized experience for you.
+We will not disclose any of your Health Information we obtain through Apple HealthKit or Google Fit to advertising platforms, data brokers, or information resellers, or for advertising, marketing, or use-based data mining purposes. We will provide Health Information to your Provider. We will not disclose such information to other third parties without your consent. We do not use automatic decision-making (i.e., making decisions solely by automated means without any human involvement) or profiling (i.e., automated processing of Personal Information to evaluate certain aspects of an individual).
+Where we intend to process your information for a purpose other than the purpose for which it was collected, we will provide you with information regarding the purpose for the processing, as well as other relevant information, prior to processing your information for the new purpose.
+Your Personal Information and Health Information will be shared with your Provider or health plan that we act on behalf of so they can evaluate your rehabilitative progress and overall condition. When permitted by applicable law and/or our agreements with your Providers, we also share the information we collect, including your Personal Information and Health Information, among our affiliates, subsidiaries, and related companies, as well as with service providers who work on our behalf, including vendors used for payment processing and order fulfillment purposes. Some third parties also collect information on other websites or mobile applications. If you have downloaded the mymobility mobile application, these third parties may include the mobile application marketplace (such as the Apple App Store or the Google Play Store) from which you downloaded the application. Please refer to your relevant marketplace’s privacy policy to understand how they collect and use your personal information.
+When permitted by applicable law and our agreements with your Providers, we also disclose information to third parties such as law enforcement agencies and government authorities; subject to a court order or subpoena; to respond to and resolve claims or complaints; to prevent fraud or for risk management purposes; for research and analytics purposes; and to comply with or respond to law enforcement or legal process or a request for cooperation by a government or other entity.
+In the event that we are contemplating selling, assigning, or transferring all or part of our assets, including at bankruptcy, we transfer information, including Personal Information, to the potential or actual buyer.
+We also share your information in other circumstances with your consent and in accordance with our agreements with your Provider and applicable law.
+We may also work with third parties that collect data about your use of the Applications and other sites or apps over time for non-advertising purposes. We use Google Analytics and other third-party services to improve the performance of the Services and for analytics and marketing purposes. For more information about how Google Analytics collects and uses data when you use our Applications, visit https://www.google.com/policies/privacy/partners/ [https://www.google.com/policies/privacy/partners/], and to opt out of Google Analytics, visit https://tools.google.com/dlpage/gaoptout/ [https://tools.google.com/dlpage/gaoptout/].
+
+USERS FROM OUTSIDE THE UNITED STATES
+This section applies to those that visit or use our Applications from outside of the United States.
+We process Personal Information and Health Information with your explicit consent (e.g., when we process Personal Information and Health Information to provide services to you and your Provider). On other occasions, we may process Personal Information when necessary to fulfill a contract or where required to do this by law. We may also process Personal Information and Health Information when it is in our legitimate interests to do this (e.g., for customer service) and when these interests are not overridden by your data protection rights.
+Please be aware that the Personal Information and Health Information we collect may be transferred to and maintained on servers or databases located outside your state, province, country, or other jurisdiction, where the privacy laws may not be as protective as those in your location.
+You have a right to the following:
+• To request access to the Personal Information and Health Information we hold about you;
+• To request that we rectify or erase your Personal Information and Health Information;
+• To request that we restrict or block the processing of your Personal Information and Health Information;
+• Under certain circumstances, to receive Personal Information and Health Information about you that we store and transmit to another without hindrance from us, including requesting that we provide your Personal Information and Health Information directly to another, i.e., a right to data portability; and
+• Where we previously obtained your consent, to withdraw consent to processing your Personal Information and your Health Information.
+To exercise these rights, contact our Data Protection Officer using the “Contact Us” section below. Please be aware that we may be unable to afford these rights to you under certain circumstances, such as if we are legally prevented from doing so.
+Additionally, you have the right to lodge a complaint against us. To do so, contact the supervisory authority in your country of residence.
+
+RETENTION
+We will process and store your information only for the period necessary to achieve the purpose of the storage, or as permitted by law. The criteria used to determine the period of storage of information is the respective statutory retention period. After expiration of that period, the corresponding information is routinely deleted, as long as it is no longer necessary for the fulfillment of a contract or the initiation of a contract.
+
+UPDATING YOUR INFORMATION
+You can update your Personal Information and Health Information attached to your account by logging into your account and changing that information or, with respect to Personal Information and Health Information provided to us by your Provider, by contacting your Provider to update the Personal Information and Health Information.
+
+LINKS TO OTHER WEBSITES
+Our Applications contain links to other websites or apps that are not owned or operated by Company. You should carefully review the privacy policies and practices of these websites or apps before visiting them, as we cannot control and are not responsible for their privacy policies or practices.
+
+SAFEGUARDING INFORMATION
+We have put in place physical, electronic, and administrative safeguards to help protect Personal Information and Health Information. However, as is the case with all websites, applications, and online services, we unfortunately are not able to guarantee security for data collected through our Applications.
+
+YOUR CHOICES
+You can unsubscribe from any marketing or promotional emails. To do so, please email us at support@zbmymobilitysolutions.com or use the unsubscribe mechanism offered in our marketing emails. Please note that if you already have requested products or services when you decide to withdraw consent, there may be a short period of time for us to update your preferences and ensure that we honor your request.
+
+CHANGES TO THIS PRIVACY POLICY
+We update this Policy from time to time and will post changes on this page. You should review this Policy periodically to stay aware of changes.
+
+CONTACT US
+If you have any questions, please contact us at: privacy.nam@zimmerbiomet.com
+For visitors from the European Economic Area, Switzerland, and the United Kingdom to contact our Data Protection Officer, please contact us at: privacy.emea@zimmerbiomet.com or write to us at Zimmer Biomet, Attn: Global Privacy Officer, P.O. Box 708 1800, West Center Street, Warsaw, Indiana 46581-0708.
+For visitors from the Asia Pacific area, please contact the relevant Data Protection Officer listed at https://www.zimmerbiomet.com/privacy-policy.html#contact [https://www.zimmerbiomet.com/privacy-policy.html#contact] via the contact details set out therein.
+© 2020 Zimmer Biomet. All Rights Reserved.
+
+This material is intended for patients utilizing the mymobility® application by Zimmer Biomet. 
+©2019-2020 Zimmer Biomet.
+
+ * Patients [https://mymobilitywp.fergdev.com/]
+ * Clinicians [https://mymobilitywp.fergdev.com/clinicians/]
+ * Contact Us [https://mymobilitywp.fergdev.com/contact-us/]
