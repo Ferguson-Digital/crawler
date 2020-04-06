@@ -1,20 +1,36 @@
+const fs = require('fs');
+
 const actionType = [
 	{
 		name: 'action',
 		message: 'What are we doing?',
 		type: 'select',
 		choices: [
-		{
-			title: 'Scan',
-			value: 'scan',
-		},
-		{
-			title: 'Compare',
-			value: 'compare',
-			selected: true
-		}]
+			{
+				title: 'Scan',
+				value: 'scan',
+			},
+			{
+				title: 'Compare',
+				value: 'compare',
+				selected: true
+			}
+		]
 	},
 ]
+
+if (fs.existsSync('./lastrun.json')) {
+	actionType[0].choices.unshift({
+		title: 'Load Previous',
+		value: 'load'
+	})
+}
+
+const cookies = {
+	type: 'list',
+	name: 'cookies',
+	message: 'Enter cookies, like name=>value, name=>value'
+}
 
 const compare = [
 	{
@@ -27,6 +43,7 @@ const compare = [
 		message: 'Enter URL 2 (Probably Dev)',
 		name: 'url2'
 	},
+	cookies,
 	{
 		type: 'number',
 		name: 'depth',
@@ -80,6 +97,7 @@ const scan = [
 		message: 'Enter a URL',
 		name: 'url'
 	},
+	cookies,
 	{
 		type: 'confirm',
 		message: 'Do a deep crawl?',
