@@ -20,25 +20,36 @@ run();
 
 async function run(){
 	let response = await prompts(questions.actionType);
+	response.params = {};
 	let loaded = false;
 	if ( response.action === 'load') {
 		response = JSON.parse(fs.readFileSync('./lastrun.json'));
+		crawlExists = fs.existsSync('./lastcrawl.json');
+
+		if ( crawlExists ) {
+			Object.assign(response.params, await prompts(questions.reuse));
+		}
+
 		loaded = true;
 	}
 	if (response.action && !loaded) {
 		if (response.action === 'scan'){
-			response.params = await prompts(questions.scan);
+			Object.assign(response.params, await prompts(questions.scan));
 		}
 		if (response.action === 'compare') {
-			response.params = await prompts(questions.compare);	
+			Object.assign(response.params, await prompts(questions.compare));
 		}
 	}
 
 	if ( response.params.cookies ) {
 		response.params.cookies = response.params.cookies.map( cookie => {
-			const cook = cookie.split("=>");
-			return [ cook[0], cook[1], Date.now() * 2 ]
-		});
+			if (cookie && typeof cookie === 'string') {
+				const cook = cookie.split("=>");
+				if ( cook[0].length && cook[1].length ){
+					return [ cook[0], cook[1], Date.now() * 2 ]
+				}
+			}
+		}).filter(cookie => cookie);
 	}
 
 	switch (response.action) {
@@ -55,56 +66,66 @@ async function run(){
 async function doCompare(response) {		
 	let spinners = {};
 	let sitePairs = [];
-	let crawler = new Crawler(response.url1)
-		.on('fetchstart', (item) => {
-			spinners = utility.startCrawlSpin(spinners, item);
-		}).on('fetchcomplete',(item,buffer,resp) => {
-			if (resp.headers["content-type"].includes("html")){
-				spinners[item.url].succeed();
-				sitePairs.push({
-					url1: item.url,
-					url2: item.url.replace(response.url1,response.url2)
-				})
-			} else {
-				spinners[item.url].fail(`HTML content-type not found at ${item.url}.`);
-			}
-		}).on('fetcherror', (item) => {
-			spinners[item.url].fail(`Couldn't fetch ${item.url}`);
-		}).on('fetchredirect', (item) => {
-			spinners[item.url].warn(`Followed a redirect for ${item.url}`);
-		}).on('complete',async () => {
-			utility.clearSpinners(spinners);
-			const boot = '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">';
-			let out = `<html><head>${boot}</head><body><table class="table"><tr><td>URL</td><td>Diff Percentage</td><td>Image</td></tr>`;
-			for(let i = 0; i < sitePairs.length; i++){
-				let compared = await runCompare(sitePairs[i], response);
-				let a = `<a href='${sitePairs[i].url1}'>${sitePairs[i].url1}</a> <br/> <a href='${sitePairs[i].url2}'>${sitePairs[i].url2}</a>`;
-				if ( compared && compared.data.rawMisMatchPercentage > 0 ) {
-					out += `<tr><td class='table-danger'>${a}</td><td>${compared.data.rawMisMatchPercentage}%</td><td><img class='img-fluid' src='${compared.data.getImageDataUrl()}'></td></tr>`;
-				} else if (compared && compared.data.rawMisMatchPercentage === 0){
-					out += `<tr><td class='table-success'>${a}</td><td>100%</td><td>All good!</td></tr>`;												
-				} else if (!compared) {
-					out += `<tr><td class='table-warning'>${a}</td><td>100%</td><td>No screenshot - URL2 doesn't exist!</td></tr>`;						
-				} 
-			}
-			out += '</table></body></html>';
-			
-			const outFull = path.resolve(compareDir,'compare.html');
 
-			fs.writeFileSync(outFull,out);
-			console.log(`Report available at ${outFull}`);
-		});
+	if (response.reuse) {
+		sitePairs = JSON.parse(fs.readFileSync('lastcrawl.json'));
+		await finishCompare(sitePairs, response, spinners);
+	} else {
+		let crawler = new Crawler(response.url1)
+			.on('fetchstart', (item) => {
+				spinners = utility.startCrawlSpin(spinners, item);
+			}).on('fetchcomplete',(item,buffer,resp) => {
+				if (resp.headers["content-type"].includes("html")){
+					spinners[item.url].succeed();
+					sitePairs.push({
+						url1: item.url,
+						url2: item.url.replace(response.url1,response.url2)
+					})
+				} else {
+					spinners[item.url].fail(`HTML content-type not found at ${item.url}.`);
+				}
+			}).on('fetcherror', (item) => {
+				spinners[item.url].fail(`Couldn't fetch ${item.url}`);
+			}).on('fetchredirect', (item) => {
+				spinners[item.url].warn(`Followed a redirect for ${item.url}`);
+			}).on('complete',async () => {
+				await finishCompare(sitePairs, response, spinners);
+			});
+		response.cookies.forEach(cookie => {
+			crawler.cookies.add(...cookie);
+		})
+		
+		crawler.maxDepth = response.depth;
+		crawler.stripQuerystring = true;
 
-	response.cookies.forEach(cookie => {
-		crawler.cookies.add(...cookie);
-	})
+		crawler = utility.filterCrud(crawler);
+
+		crawler.start();			
+	}
+}
+
+async function finishCompare(sitePairs, response, spinners){
+	utility.clearSpinners(spinners);
+	const boot = '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">';
+	let out = `<html><head>${boot}</head><body><table class="table"><tr><td>URL</td><td>Diff Percentage</td><td>Image</td></tr>`;
+	for(let i = 0; i < sitePairs.length; i++){
+		let compared = await runCompare(sitePairs[i], response);
+		let a = `<a href='${sitePairs[i].url1}'>${sitePairs[i].url1}</a> <br/> <a href='${sitePairs[i].url2}'>${sitePairs[i].url2}</a>`;
+		if ( compared && compared.data.rawMisMatchPercentage > 0 ) {
+			out += `<tr><td class='table-danger'>${a}</td><td>${compared.data.rawMisMatchPercentage}%</td><td><img class='img-fluid' src='${compared.data.getImageDataUrl()}'></td></tr>`;
+		} else if (compared && compared.data.rawMisMatchPercentage === 0){
+			out += `<tr><td class='table-success'>${a}</td><td>100%</td><td>All good!</td></tr>`;												
+		} else if (!compared) {
+			out += `<tr><td class='table-warning'>${a}</td><td>100%</td><td>No screenshot - URL2 doesn't exist!</td></tr>`;						
+		} 
+	}
+	out += '</table></body></html>';
 	
-	crawler.maxDepth = response.depth;
-	crawler.stripQuerystring = true;
+	fs.writeFileSync('lastcrawl.json', JSON.stringify(sitePairs));
+	const outFull = path.resolve(compareDir,'compare.html');
 
-	crawler = utility.filterCrud(crawler);
-
-	crawler.start();
+	fs.writeFileSync(outFull, out);
+	console.log(`Report available at ${outFull}`);	
 }
 
 async function runCompare(compare, response){
@@ -166,7 +187,7 @@ async function runCompare(compare, response){
 }
 
 
-function doScan(response){
+async function doScan(response){
 	let pages = {};
 	let spinners = {};
 	let fourohfour = [];
@@ -174,54 +195,68 @@ function doScan(response){
 	
 	scanDir = path.resolve(process.cwd(),'scans',slug);
 	utility.verifyDir(scanDir);
-
-	var crawler = new Crawler(response.url)
-		.on('fetchstart', (item, req) => {
-			spinners = utility.startCrawlSpin(spinners, item);
-		}).on('fetchcomplete',(item,buffer,resp) => {
-			if (resp.headers["content-type"].includes("html")){
-				pages[item.url] = buffer;
-				spinners[item.url].succeed();
-				if (response.scanType.includes("text")) {
-					text(item.url,response.url,buffer);
+		console.log(response)
+	if ( response.reuse ) {
+		pages = JSON.parse(fs.readFileSync('lastcrawl.json'));
+		await finishScan(pages, response, spinners);
+	} else {
+		let crawler = new Crawler(response.url)
+			.on('fetchstart', (item, req) => {
+				spinners = utility.startCrawlSpin(spinners, item);
+			}).on('fetchcomplete',(item,buffer,resp) => {
+				if (resp.headers["content-type"].includes("html")){
+					pages[item.url] = buffer;
+					spinners[item.url].succeed();
+					if (response.scanType.includes("text")) {
+						text(item.url,response.url,buffer);
+					}
+				} else {
+					spinners[item.url].fail(`HTML content-type not found at ${item.url}.`);
 				}
-			} else {
-				spinners[item.url].fail(`HTML content-type not found at ${item.url}.`);
-			}
-		}).on('fetcherror', (item) =>{
-			spinners[item.url].fail(`Couldn't fetch ${item.url}`);
-		}).on('fetchredirect', (item) => {
-			spinners[item.url].warn(`Followed a redirect for ${item.url}`);
-		}).on('fetch404', (item) =>{
-			spinners[item.url].warn(`404 Not Found: ${item.url}`);
-			fourohfour.push(item);
-		}).on('complete',async () => {
-			utility.clearSpinners(spinners);
-			console.log(chalk.green('Finished crawling!'));
+			}).on('fetcherror', (item) =>{
+				spinners[item.url].fail(`Couldn't fetch ${item.url}`);
+			}).on('fetchredirect', (item) => {
+				spinners[item.url].warn(`Followed a redirect for ${item.url}`);
+			}).on('fetch404', (item) =>{
+				spinners[item.url].warn(`404 Not Found: ${item.url}`);
+				fourohfour.push(item);
+			}).on('complete',async () => {
+				await finishScan(pages, response, spinners, fourohfour);
+			})
 
-			if (response.scanType.includes("screenshots")) {
-				await screenshots(pages,response);
-			}
-			if (response.scanType.includes("validate")) {
-				await validateHTML(pages);
-			}
-			if (response.scanType.includes("404") && fourohfour.length) {
-				fourOhs(fourohfour);
-			}
+		crawler.maxDepth = response.deep ? 0 : 1;
+		crawler.stripQuerystring = true;
 
-		})
+		crawler = utility.filterCrud(crawler);
+		crawler.start();	
+	}
 
 	response.cookies.forEach(cookie => {
-		crawler.cookies.add(...cookie);
+		if (cookie) {
+			crawler.cookies.add(...cookie);
+		}
 	})
-
-	crawler.maxDepth = response.deep ? 0 : 1;
-	crawler.stripQuerystring = true;
-
-	crawler = utility.filterCrud(crawler);
-	crawler.start();	
 }
 
+async function finishScan(pages, response, spinners, fourohfour) {
+	utility.clearSpinners(spinners);
+	console.log(chalk.green('Finished crawling!'));
+
+	if (response.scanType.includes("screenshots")) {
+		await screenshots(pages, response);
+	}
+	if (response.scanType.includes("validate")) {
+		await validateHTML(pages);
+	}
+	if (response.scanType.includes("404") && fourohfour && fourohfour.length && !response.reuse) {
+		fourOhs(fourohfour);
+	}
+	if (response.reuse && response.scanType.includes("404") ) {
+		ora(chalk.red(`Not performing a 404 scan with the "Reuse Crawl" option selected. If you need a 404 report, please re-run the crawl.`)).fail();	
+	}
+	
+	fs.writeFileSync('lastcrawl.json', JSON.stringify(pages));	
+}
 function fourOhs(fourohfour){
 	ora(chalk.red(`Found 404s...`)).fail();
 

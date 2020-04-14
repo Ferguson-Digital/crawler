@@ -32,6 +32,15 @@ const cookies = {
 	message: 'Enter cookies, like name=>value, name=>value'
 }
 
+const reuse = {
+	name: 'reuse',
+	message: 'Reuse previous crawl URLs?',
+	type: 'toggle',
+	initial: true,
+	active: 'yes',
+	inactive: 'no'
+}
+
 const compare = [
 	{
 		type: 'text',
@@ -108,4 +117,5 @@ const scan = [
 
 exports.scan = scan;
 exports.compare = compare;
+exports.reuse = reuse;
 exports.actionType = actionType;
