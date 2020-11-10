@@ -44,7 +44,7 @@ module.exports = class Compare {
 			});
 		
 			crawler.maxDepth = response.depth;
-			crawler.stripQuerystring = true;
+			crawler.stripQuerystring = false;
 
 			crawler = utility.filterCrud(crawler);
 

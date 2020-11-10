@@ -1,3 +1,4 @@
+/* eslint-env node */
 const fs = require('fs');
 
 const actionType = [
@@ -23,14 +24,14 @@ if (fs.existsSync('./lastrun.json')) {
 	actionType[0].choices.unshift({
 		title: 'Load Previous',
 		value: 'load'
-	})
+	});
 }
 
 const cookies = {
 	type: 'list',
 	name: 'cookies',
 	message: 'Enter cookies, like name=>value, name=>value'
-}
+};
 
 const reuse = {
 	name: 'reuse',
@@ -39,7 +40,13 @@ const reuse = {
 	initial: true,
 	active: 'yes',
 	inactive: 'no'
-}
+};
+
+const limit = {
+	name: 'limit',
+	message: 'Limit the number of pages',
+	type: 'number'
+};
 
 const compare = [
 	{
@@ -64,14 +71,16 @@ const compare = [
 		name: 'full',
 		message: 'Compare the full screen, or just above the fold?',
 		choices: [
-		{
-			title: 'Above the fold',
-			value: false,
-			selected: true
-		},{
-			title: 'Full Screen',
-			value: true,
-		}]		
+			{
+				title: 'Above the fold',
+				value: false,
+				selected: true
+			},
+			{
+				title: 'Full Screen',
+				value: true,
+			}
+		]		
 	}
 ]
 
@@ -81,25 +90,26 @@ const scan = [
 		message: 'What are we scanning?',
 		type: 'multiselect',
 		choices: [
-		{
-			title: 'Screenshots',
-			value: 'screenshots',
-			selected: true
-		},
-		{
-			title: 'Text Scrape',
-			value: 'text'
-		},
-		{
-			title: '404 Report',
-			value: '404',
-			selected: true
-		},
-		{
-			title: 'Validate HTML',
-			value: 'validate',
-			selected: true
-		}]
+			{
+				title: 'Screenshots',
+				value: 'screenshots',
+				selected: true
+			},
+			{
+				title: 'Text Scrape',
+				value: 'text'
+			},
+			{
+				title: '404 Report',
+				value: '404',
+				selected: true
+			},
+			{
+				title: 'Validate HTML',
+				value: 'validate',
+				selected: true
+			}
+		]
 	},
 	{
 		type: 'text',
@@ -113,9 +123,10 @@ const scan = [
 		initial: false,
 		name: 'deep'
 	}
-]
+];
 
 exports.scan = scan;
 exports.compare = compare;
 exports.reuse = reuse;
+exports.limit = limit;
 exports.actionType = actionType;

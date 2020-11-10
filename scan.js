@@ -18,7 +18,8 @@ module.exports = class Compare {
 		let spinners = {};
 		let fourohfour = [];
 		let slug = utility.getSlugFromURL(response.url);
-	
+		let scanned = 0;
+		let limit = response.limit || 999999;
 		scanDir = path.resolve(process.cwd(), 'scans', slug);
 		utility.verifyDir(scanDir);
 
@@ -27,10 +28,13 @@ module.exports = class Compare {
 			await this.finish(pages, response, spinners);
 		} else {
 			let crawler = new Crawler(response.url)
+				.on('queueadd', (_item) => {
+
+				})
 				.on('fetchstart', (item) => {
 					spinners = utility.startCrawlSpin(spinners, item);
 				}).on('fetchcomplete', (item, buffer, resp) => {
-					if (resp.headers['content-type'].includes('html')){
+					if (resp.headers['content-type'] && resp.headers['content-type'].includes('html')){
 						pages[item.url] = buffer;
 						spinners[item.url].succeed();
 						if (response.scanType.includes('text')) {
@@ -42,6 +46,13 @@ module.exports = class Compare {
 								dir: 'txt'
 							};
 							ops.text(opts);
+						}
+						scanned++;
+						if ( limit <= scanned ){
+							// console.log('limit reached');
+							// crawler.queue = new Crawler.queue();
+							crawler.emit('complete');
+							crawler.stop();
 						}
 					} else {
 						spinners[item.url].fail(`HTML content-type not found at ${item.url}.`);

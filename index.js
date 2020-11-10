@@ -26,6 +26,7 @@ async function run(){
 	}
 	if (response.action && !loaded) {
 		if (response.action === 'scan'){
+			Object.assign(response.params, await prompts(questions.limit));
 			Object.assign(response.params, await prompts(questions.scan));
 		}
 		if (response.action === 'compare') {
