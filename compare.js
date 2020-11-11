@@ -25,10 +25,13 @@ module.exports = class Compare {
 				}).on('fetchcomplete', (item, buffer, resp) => {
 					if (resp.headers['content-type'].includes('html')){
 						spinners[item.url].succeed();
-						sitePairs.push({
-							url1: item.url,
-							url2: item.url.replace(response.url1, response.url2)
-						});
+						let noWWW = item.url.replace('www.', '');
+						if (noWWW.includes(response.url1)) {
+							sitePairs.push({
+								url1: item.url,
+								url2: noWWW.replace(response.url1, response.url2)
+							});
+						}
 					} else {
 						spinners[item.url].fail(`HTML content-type not found at ${item.url}.`);
 					}

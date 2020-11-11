@@ -39,7 +39,7 @@ async function run(){
 			if (cookie && typeof cookie === 'string') {
 				const cook = cookie.split('=>');
 				if ( cook[0].length && cook[1].length ){
-					return [ cook[0], cook[1], Date.now() * 2 ]
+					return [ cook[0], cook[1], Date.now() * 2 ];
 				}
 			}
 		}).filter(cookie => cookie);
@@ -55,11 +55,3 @@ async function run(){
 	}
 	fs.writeFileSync('./lastrun.json', JSON.stringify(response));
 }
-
-
-
-
-
-
-
-
