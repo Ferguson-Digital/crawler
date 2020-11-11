@@ -7,7 +7,7 @@ This project is a somewhat-fleshed-out crawler that does a few things:
 
 ## To Run ##
 `node index.js`
-Follow the onscreen prompts. Any reports or other outputs will be placed inside ```<scandirectory>/<scans|compare>/<domain>/<results files>```. The outputs include files like ```404.txt``` or ```compare.html```. Some reports (HTML validity, for instance, purely output to the console. Some sites may require a cookie in order to get past a login wall, so you may enter that info as well.
+Follow the onscreen prompts. Any reports or other outputs will be placed inside ```<scandirectory>/<scans|compare>/<domain>/<results files>```. The outputs include files like ```404.txt``` or ```compare.html```. Some reports (HTML validity, for instance), purely output to the console. Some sites may require a cookie in order to get past a login wall, so you may enter that info as well.
 
 ## Screenshots ##
 ### Compare two sites ###
